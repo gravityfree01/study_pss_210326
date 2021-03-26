@@ -19,14 +19,21 @@
 #include<iostream>
 
 using namespace std;
-
 void main() {
 
-	int a = 10, b = 30;
+	int var1, var2;
 
-	cout << a + b << endl;
-	cout << a * b << endl;
-	cout << a / b << endl;
-	cout << a - b << endl;
+	cout << "첫번째 값을 입력해주세요>>";
+	cin >> var1;
+	cout << "두번째 값을 입력해 주세요>>";
+	cin >> var2;
+
+	cout << var1 << "+" << var2 << "=" << var1 + var2 << endl;
+	cout << var1 << "*" << var2 << "=" << var1 + var2 << endl;
+	cout << var1 << "/" << var2 << "=" << var1 + var2 << endl;
+	cout << var1 << "-" << var2 << "=" << var1 + var2 << endl;
+
 }
+
+
 
